@@ -1,0 +1,18 @@
+.sidebar {
+  flex: 0.3;
+  max-width: 19rem;
+  padding: 1rem;
+}
+
+.sidebar__compose {
+  margin: 0.5rem 0 0.5rem 0.5rem !important;
+  border-radius: 2rem !important;
+  padding: 0.75rem !important;
+  box-shadow: 0 0.4rem 0.4rem lightgrey !important;
+  border: 0.1px solid whitesmoke !important;
+}
+
+.sidebar__footer {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+.section {
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+  align-items: center;
+  border-bottom-width: 3px;
+  min-width: 12rem;
+  border-width: 0px !important;
+}
+.section--selected {
+  border-width: 3px !important;
+  background-color: whitesmoke;
+}
+
+.section:hover {
+  border-width: 3px !important;
+  background-color: whitesmoke;
+}
+
+.section > h4 {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.section--selected > h4 {
+  font-weight: 700;
+}
+
+.section:hover > h4 {
+  font-weight: 700;
+}
